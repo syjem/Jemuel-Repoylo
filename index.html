@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jemuel Repoylo | Front End Web Developer</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="img/icon.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <a href="index.html">
+              <img
+                src="img/pogi.jpg"
+                alt="Jemuel Repoylo"
+                width="80"
+                title="Jemuel Repoylo"
+                style="border-radius: 14px;"
+              />
+            </a>
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Jemuel Repoylo">Jemuel Repoylo</h1>
+
+            <p class="title">Front End Web Developer</p>
+          </div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://web.facebook.com/syjemmy.yan" class="social-link" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/jemuel-repoylo-a87a63246/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/syjem" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/syjem" class="social-link" target="_blank">
+                <ion-icon name="logo-up-work"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Info</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="https://mail.google.com/mail/u/0/#compose" 
+                   class="contact-link"
+                   title="jrepoylo143@gmail.com"
+                   target="_blank">jrepoylo143@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <address>+639488450249</address>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="language-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Languages</p>
+
+                <time>English/Filipino</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Zamboanga Del Sur, Philippines</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+        <!--
+        - #main-content
+      -->
+
+      <div class="main-content">
+          <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>ABOUT</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>QUALIFICATIONS</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>PORTFOLIO</button>
+            </li>
+
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>CONTACT</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <h1>Hi, I'm Jemuel</h1>
+              <div class="infinite-text">
+                <span class="about">Front End Web Developer</span>
+              </div>
+                        <p>With a strong foundation in 
+                            HTML, CSS, and JavaScript, I have the skills and knowledge 
+                            to bring your web projects to life. I am constantly learning 
+                            and staying up-to-date with the latest front-end development 
+                            frameworks, so I can deliver the best results for my clients. 
+                            Whether it's through clean code or creative design, I aim to 
+                            exceed client expectations and deliver top-quality services.</p>
+          </section>
+
+          <!--
+          - service
+          -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I Can Offer?</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="img/web0.png"
+                
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title"><span class="about">Front End Web Development</span></h4>
+
+                  <p class="service-item-text">
+                    Creates visually appealing and user-friendly 
+                    websites using the latest software 
+                    and web development technologies.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="img/web1.png"
+                    alt="Design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title"><span class="about">Web Design</span></h4>
+
+                  <p class="service-item-text">
+                    Professional-level web designs to the highest quality using 
+                    the latest web design trends and techniques.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills | Front End Development</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <span class="ionic">
+                    <ion-icon name="logo-html5"></ion-icon>
+                  </span>
+                  <h5 class="h5">HTML</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <span class="ionic">
+                    <ion-icon name="logo-css3"></ion-icon>
+                  </span>
+                  <h5 class="h5">CSS</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <span class="ionic">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                  </span>
+                    <h5 class="h5">JavaScript</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <span class="ionic">
+                    <ion-icon name="logo-react"></ion-icon>
+                  </span>
+                  <h5 class="h5">REACT.JS</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              
+            </ul>
+          </section>
+
+          <!--
+          -Button Overlay/ Modal Container
+          -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>   
+              <button class="modal-close-btn" data-modal-close-btn>
+              </button>  
+          </div>   
+        </article>
+
+        <!--
+        - #Qualifications
+      -->
+
+        <article class="qualifications" data-page="qualifications">
+          <header>
+            <h2 class="h2 article-title">Qualifications</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Western Mindanao State University
+                </h4>
+
+                <span>Aug 2018 - June  2022</span>
+
+                <p class="timeline-text">
+                 Bachelor of Science in Computer Science Graduate 
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IBM - CAD101EN at edX.org
+                </h4>
+
+                <span>Dec 2022 - Jan 2023</span>
+
+                <p class="timeline-text">
+                  Introduction to Web Development with HTML5, CSS3, and JavaScript
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Tambulig National High School - Senior High School</h4>
+
+                <span>June 2016 - April 2018</span>
+
+                <p class="timeline-text">
+                  Information and Communication Technology (ICT)  
+                </p>
+                <p class="timeline-text"> 
+                  - Major in Computer Programming</p>
+                <p class="timeline-text">Programming Language:</p>
+                <p class="timeline-text">- VB.NET</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Front End Web Development</h4>
+
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">
+                  I am a Front End Web Developer Working as a Freelancer. Hire me!
+                </p>
+              </li>
+            </ol>
+          </section>    
+        </article>
+
+
+        <!-- Certifications -->
+
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Portfolio</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Certifications</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Portfolio</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Certifications</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="certifications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="img/fcc.png"
+                      alt="Free Code Camp Certification"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Responsive Web Design</h3>
+
+                  <p class="project-category">Free Code Camp</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="certifications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="img/PHP.jpg"
+                      alt="PHP Certification"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PHP</h3>
+
+                  <p class="project-category">Udemy</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="certifications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="img/Java.png"
+                      alt="Java Certification"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Java</h3>
+
+                  <p class="project-category">Udemy</p>
+                </a>
+              </li>
+
+              <li
+              class="project-item active"
+              data-filter-item
+              data-category="portfolio"
+              >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="img/penguin.png"
+                    alt="Java Certification"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Penguin</h3>
+
+                <p class="project-category">Portfolio</p>
+              </a>
+            </li>
+
+            </ul>
+          </section>
+        </article>
+
+
+
+
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Send me an email</h3>
+
+            <form
+              action="php/data.php"
+              class="form"
+              data-form
+              method="post"
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full Name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email Address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <div class="button-container">
+                <button class="form-btn" type="submit" disabled data-form-btn>
+                  <ion-icon name="paper-plane"></ion-icon>
+                  <span>Send Message</span>
+                </button>
+            </div>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
