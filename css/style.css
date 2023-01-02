@@ -554,7 +554,7 @@ main {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 3s linear infinite;
+  animation: typing 2.9s linear infinite;
 }
 
 .infinite-text span {
