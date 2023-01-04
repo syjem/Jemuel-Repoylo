@@ -465,7 +465,8 @@ main {
 }
 
 .ionic {
-  color: rgb(242, 179, 184);
+  font-size: var(--fs-3);
+  color: cyan;
 }
 
 
