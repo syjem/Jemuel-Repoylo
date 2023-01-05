@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :root {
 
   /* gradient */
@@ -520,42 +520,65 @@ main {
 
 /* infinite text */
 
-.infinite-text {
+.wrapper {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper .static-text {
+  margin-top: 2px;
+  color: beige;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.wrapper .infinite-text {
+  margin-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.infinite-text li {
+  position: relative;
+  color: #FC6D6D;
+  font-size: 18px;
+  font-weight: 500;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+      top: -120px;
+  }
+}
+
+.infinite-text li span {
+  position: relative;
+  margin: 0;
+  line-height: 30px;
+}
+
+.infinite-text li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
   width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 2.9s linear infinite;
+  background: rgb(11, 2, 28);
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
 }
-
-.infinite-text span {
-  display: inline;
-  width: 0;
-  overflow: hidden;
-  animation: blink 0.5s linear infinite;
-}
-
 
 @keyframes typing {
-  0% {
-    width: 0;
+  40%, 60% {
+    left: calc(100% + 30px);
   }
   100% {
-    width: 100%;
+    left: 0;
   }
 }
-
-@keyframes blink {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 0;
-  }
-  51% {
-    width: 8px;
-  }
-}
-
 
 /* Service */
 
