@@ -477,8 +477,7 @@ main {
 
 .navbar-link:hover,
 .navbar-link:focus { 
-  color: var(--light-gray-70);
-  font-weight: bold; 
+  font-weight: bolder; 
 }
 
 .navbar-link.active { 
@@ -489,7 +488,7 @@ main {
   content: '';
   display: block;
   height: 3px;
-  background-color: rgb(240, 177, 5);
+  background-color: rgb(240, 52, 5);
   position: absolute;
   bottom: 10px;
   width: 0%;
